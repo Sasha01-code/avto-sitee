@@ -75,6 +75,45 @@ main .main__welcome h1{
   color: #f0000f;
 }
 
+.wrapper{
+  width: 76%;
+  margin: 0 auto;
+}
+
+main .main__about{ 
+  display: flex;
+  padding: 100px 0 100px 0; 
+}
+
+.about__right{
+  margin-left: 150px;  
+}
+
+.about__right h1{
+  display: block;
+  border-bottom: 3px solid #f0000f;
+  padding-bottom: 15px;
+}
+.about__right p{
+  margin: 30px 0 50px 0;
+  color: #999;
+}
+.about__right li{
+  background: url(img/mark1.png) 0px no-repeat;
+  padding-left: 30px;
+  margin-top: 10px;
+  color: #999;
+}
+
+.mv-100{
+  min-width: 100%;
+}
+
+
+
+
+
+
 
 
 
@@ -139,4 +178,40 @@ main .main__welcome h1{
    display: block;
    text-align: left;
   }
+
+
+
+  main .main__welcome{
+    padding: 50px 0 50px 0;
+  }
+  
+  main .main__welcome p {
+    font-size: 14px;
+  }
+  
+  main .main__welcome h1{
+    font-size: 25px; 
+  }
+
+  
+.mv-100{
+  max-width: 100%;
+}
+
+.main__about{
+  flex-direction: column;
+}
+
+.about__right{
+  text-align: center;
+  margin-left: 0;
+}
+.about__right li{
+  text-align: left;
+}
+.about__right h1{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
 }
